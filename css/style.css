@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+h1,h2,h3,h4{
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #696969;
+}
+a:hover{
+	color: rgba(217,61,43,1.00);
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.menu img{
+	margin: 0px 15px -20px;
+}
+.menu img:hover{
+	opacity: 0;
+}
+.section1{
+	width: 100%;
+	height: 300px;
+	background: url("../img/getty_583734066_335273-1.jpg");
+	background-size: cover;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.A1{
+	/* background: red;*/
+	text-align: center;
+}
+.A1 h1{
+	margin-bottom: 20px;
+	font-size: 42px;
+/*  color: white;*/
+}
+.btn{
+	background: lightgrey;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #1f1f1;	
+}
+/* main*/
+.section2{
+	width: 100%;
+	background: white;
+	height: 500px;
+	padding: 100px 0px;
+}
+.section2 li{
+	display: inline-block;
+	padding: 20px 700px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.video{
+	width: 70%;
+	height: 500px;
+	background: white;
+	float: left;
+	border-radius: 20px;
+	overflow: hidden; 
+}
+.info{
+	width: 28%;
+	height: 500px;
+	float: right;
+}	
+.section3 li{
+	display: inline-block;
+	padding: 20px 650px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+/*footer*/
+.section4{
+	width: 100%;
+	background: white;
+	height: 300px;
+	padding: 10px 0px;
+}
+.
+.B1{
+	width: 100%;
+	height: 80px;
+	padding: 5px 0px;
+}
+.B2{
+	width: 100%;
+	height: 60px;
+	padding: 15px 0px;
+}
+.b3{
+	width: 100%;
+	height: 55px;
+	padding: 5px 0px;
+}
+.b3 ul li{
+	display: inline-block;
+	padding: 1px 5px;
+	text-transform: uppercase;
+}
+.B4{
+	width: 100%;
+	height: 20px;
+	padding: 5px 0px;
+}
+.p{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+	width: 100%;
+	height: 50px;
+}
